@@ -23,7 +23,7 @@ public class Tokenizer_Lab3 {
         System.out.print(" <assignment operator> ");
         opt= "";
     }
-    //converts lexemes into tokens
+    // identifies the tokens and converts lexemes into tokens
     public static void tokenizer(String s){
         for (int i = 0; i < s.length(); i++){
             String c = s.substring(i,i+1);
